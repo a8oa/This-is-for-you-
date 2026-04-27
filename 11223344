@@ -1,0 +1,39 @@
+import time
+import sys
+# هاذا لك
+$ Sara,print("ساره تاج وباج 😂") 
+field_heart_s = [
+    "#################### S S S S S S #################### S S S S S S ####################",
+    "################ S S S S S S S S S ############## S S S S S S S S S ################",
+    "############## S S S S S S S S S S S ########## S S S S S S S S S S S ##############",
+    "############ S S S S S S S S S S S S S ######## S S S S S S S S S S S S S ############",
+    "########## S S S S S S S S S S S S S S S ###### S S S S S S S S S S S S S S S ##########",
+    "######## S S S S S S S S S S S S S S S S S ## S S S S S S S S S S S S S S S S S ########",
+    "###### S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S ######",
+    "###### S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S ######",
+    "###### S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S ######",
+    "###### S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S ######",
+    "###### S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S ######",
+    "######## S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S ########",
+    "########## S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S ##########",
+    "############ S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S S ############",
+    "############## S S S S S S S S S S S S S S S S S S S S S S S S S S S S S ##############",
+    "################ S S S S S S S S S S S S S S S S S S S S S S S S S S ################",
+    "################## S S S S S S S S S S S S S S S S S S S S S S S S ##################",
+    "#################### S S S S S S S S S S S S S S S S S S S S S S ####################",
+    "###################### S S S S S S S S S S S S S S S S S S S S ######################",
+    "######################## S S S S S S S S S S S S S S S S S S ########################",
+    "########################## S S S S S S S S S S S S S S S S ##########################",
+    "############################ S S S S S S S S S S S S S S ############################",
+    "############################## S S S S S S S S S S S S ##############################",
+    "################################ S S S S S S S S S S ################################",
+    "################################## S S S S S S S S ##################################",
+    "#################################### S S S S S S ####################################",
+    "###################################### S S S S ######################################",
+    "######################################## S S ########################################",
+    "########################################## S ##########################################",
+]
+
+# تنفيذ الطباعة
+for line in field_heart_s:
+    slow_print(line)
