@@ -1,0 +1,52 @@
+import time
+import sys
+
+# دالة الطباعة البطيئة بتأثير تدفقي
+def streaming_print(text, speed=0.005):
+    for char in text:
+        sys.stdout.write(char)
+        sys.stdout.flush()
+        time.sleep(speed)
+    print()
+
+# بناء الحقل بالكامل من # مع رسم القلب من M في المنتصف
+# الحجم ضخم جداً لملء الحقل
+large_heart_in_field = [
+    "####################MMMMMMMMMMMM####################MMMMMMMMMMMM####################",
+    "################MMMMMMMMMMMMMMMMMM##############MMMMMMMMMMMMMMMMMM################",
+    "##############MMMMMMMMMMMMMMMMMMMMMM##########MMMMMMMMMMMMMMMMMMMMMM##############",
+    "############MMMMMMMMMMMMMMMMMMMMMMMMMM########MMMMMMMMMMMMMMMMMMMMMMMMMM############",
+    "##########MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM######MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM##########",
+    "########MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM##MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM########",
+    "######MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM######",
+    "######MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM######",
+    "######MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM######",
+    "######MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM######",
+    "######MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM######",
+    "########MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM########",
+    "##########MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM##########",
+    "############MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM############",
+    "##############MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM##############",
+    "################MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM################",
+    "##################MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM##################",
+    "####################MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM####################",
+    "######################MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM######################",
+    "########################MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM########################",
+    "##########################MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM##########################",
+    "############################MMMMMMMMMMMMMMMMMMMMMMMMMMMM############################",
+    "##############################MMMMMMMMMMMMMMMMMMMMMMMM##############################",
+    "################################MMMMMMMMMMMMMMMMMMMM################################",
+    "##################################MMMMMMMMMMMMMMMM##################################",
+    "####################################MMMMMMMMMMMM####################################",
+    "######################################MMMMMMMM######################################",
+    "########################################MMMM########################################",
+    "##########################################MM##########################################",
+    "###########################################M###########################################",
+]
+
+# طباعة الحقل مع القلب بتأثير تدفقي
+for line in large_heart_in_field:
+    streaming_print(line)
+
+    print(v)
+end
